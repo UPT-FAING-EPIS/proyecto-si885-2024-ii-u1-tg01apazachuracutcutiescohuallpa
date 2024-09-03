@@ -73,6 +73,6 @@ Habrá un archivo por cada fecha, y si el sistema detecta una nueva fecha (por e
 ### Imágenes
 
 - ![Python](https://www.python.org/static/community_logos/python-logo-generic.svg)
-- ![Tableau](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Tableau_Software_logo.svg/1200px-Tableau_Software_logo.svg.png)
+- ![Tableau](https://ibb.co/61ftLjZ)
 - ![Windows Task Scheduler](https://docs.microsoft.com/en-us/windows-server/administration/images/schedule-tasks.png)
 
