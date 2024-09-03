@@ -1,5 +1,14 @@
 @echo off
 
+REM Verificar si Python ya esta instalado
+echo Verificando si Python esta instalado...
+where python > nul 2>&1
+if %errorlevel% equ 0 (
+    echo Python ya esta instalado.
+    pause
+    exit /b
+)
+
 REM Mostrar la ruta actual para depuracion
 echo Ruta actual: %cd%
 
