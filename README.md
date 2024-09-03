@@ -1,5 +1,15 @@
 # Proyecto Formatos 011
 
+### Integrantes
+
+| Nombre                             | Insights Totales |
+|------------------------------------|-------------------|
+| Escobar Rejas, Carlos Andrés (2021070016) | [Insights Totales] |
+| Apaza Ccalle, Albert Kenyi (2021071075)  | [Insights Totales] |
+| Ricardo Cutipa Gutierrez (2021069827)    | [Insights Totales] |
+| Erick Churacutipa Blass (2020067578)     | [Insights Totales] |
+| Jesus Huallpa Maron (2021071085)         | [Insights Totales] |
+
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=15560310)
 
 ## Contexto del Proyecto
