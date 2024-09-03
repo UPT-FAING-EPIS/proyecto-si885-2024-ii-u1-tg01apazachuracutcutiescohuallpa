@@ -94,8 +94,8 @@ Versión *{1.0}*
 1.4. Objetivos
 
 1.4.1 Objetivo general
-
-Desarrollar e implementar un sistema robusto para el monitoreo y evaluación del rendimiento de la red y hardware en las computadoras de la UPT.
+   
+    -Desarrollar e implementar un sistema robusto para el monitoreo y evaluación del rendimiento de la red y hardware en las computadoras de la UPT.
 
 1.4.2 Objetivos Específicos
             
