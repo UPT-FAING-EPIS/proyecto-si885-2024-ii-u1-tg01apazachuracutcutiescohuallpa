@@ -70,9 +70,9 @@ El archivo será enviado desde `sosahijas@gmail.com` a `sosahijas@gmail.com`, us
 
 Habrá un archivo por cada fecha, y si el sistema detecta una nueva fecha (por ejemplo, al apagar y comenzar de nuevo), recopilará los datos y enviará el correo electrónico.
 
-### Imágenes
+### Software
 
-- ![Python](https://www.python.org/static/community_logos/python-logo-generic.svg)
+- [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 - [![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://www.tableau.com/)
 - [![Windows Task Scheduler](https://img.shields.io/badge/Windows_Task_Scheduler-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://docs.microsoft.com/en-us/windows/win32/taskschd/task-scheduler-start-page)
 
