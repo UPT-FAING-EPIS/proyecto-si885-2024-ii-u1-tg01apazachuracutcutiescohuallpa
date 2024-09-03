@@ -1,8 +1,7 @@
 @echo off
 
-REM Verificar si Python ya esta instalado
-echo Verificando si Python esta instalado...
-where python > nul 2>&1
+REM Comprobar si Python ya esta instalado
+python --version > nul 2>&1
 if %errorlevel% equ 0 (
     echo Python ya esta instalado.
     pause
@@ -26,7 +25,7 @@ echo Instalando Python...
 REM Esperar unos segundos para que la instalacion termine
 timeout /t 10 > nul
 
-REM Verificar si Python se instaló correctamente
+REM Verificar si Python se instalo correctamente
 echo Verificando la instalacion de Python...
 where python > nul 2>&1
 if %errorlevel% neq 0 (
