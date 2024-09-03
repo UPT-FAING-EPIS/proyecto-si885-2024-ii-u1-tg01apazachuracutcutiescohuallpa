@@ -10,7 +10,7 @@
 
 **Escuela Profesional de Ingeniería de Sistemas**
 
-**Proyecto *Herramienta de Seguimiento y Evaluación del Desempeño de Red y Hardware en Computadoras UPT***
+**Proyecto *"Herramienta de Seguimiento y Evaluación del Desempeño de Red y Hardware en Computadoras UPT"***
 
 Curso: Inteligencia de Negocios
 
@@ -33,7 +33,7 @@ Huallpa Maron, Jesus Antonio (2021071085)
 </center>
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
-**Sistema *Herramienta de Seguimiento y Evaluación del Desempeño de Red y Hardware en Computadoras UPT***
+**Sistema *"Herramienta de Seguimiento y Evaluación del Desempeño de Red y Hardware en Computadoras UPT"***
 
 Informe de Factibilidad
 
@@ -79,19 +79,31 @@ Versión *{1.0}*
 
 1. <span id="_Toc52661346" class="anchor"></span>**Descripción del Proyecto**
 
-    1.1. Nombre del proyecto
+1.1. Nombre del proyecto
+   
+    "Herramienta de Seguimiento y Evaluación del Desempeño de Red y Hardware en Computadoras UPT"
+    
+1.2. Duración del proyecto
 
-    1.2. Duración del proyecto
+    Empieza el 13 de agosto y termina el . (aun por definir)
 
-    1.3. Descripción
+1.3. Descripción
 
-        En que consiste el proyecto/importancia del mismo, contexto en que se va desenvolver
+    El proyecto "Herramienta de Seguimiento y Evaluación del Desempeño de Red y Hardware en Computadoras UPT" consiste en el desarrollo de una solución integral para monitorear y evaluar el rendimiento de la red y el hardware de las computadoras dentro de la Universidad Privada de Tacna (UPT). Esta herramienta está diseñada para proporcionar un análisis detallado del estado y desempeño de los recursos tecnológicos, permitiendo a los administradores de TI identificar y solucionar problemas de manera proactiva. A través de la recopilación de datos en tiempo real, la herramienta facilita la gestión eficiente del rendimiento, asegurando que las computadoras mantengan un nivel óptimo de operación y que la red funcione sin interrupciones. Además, incluye funciones de evaluación continua, que ayudan a realizar un seguimiento del rendimiento a lo largo del tiempo, identificar patrones de uso, y proponer mejoras basadas en datos concretos.
 
-    1.4. Objetivos
+1.4. Objetivos
 
-        1.4.1 Objetivo general
-        1.4.2 Objetivos Específicos
-            Para cada objetivo específico se indicara que se va a lograr
+1.4.1 Objetivo general
+
+Desarrollar e implementar un sistema robusto para el monitoreo y evaluación del rendimiento de la red y hardware en las computadoras de la UPT.
+
+1.4.2 Objetivos Específicos
+            
+    -Diseñar una arquitectura de software que permita la recolección de datos en tiempo real sobre el rendimiento de la red y hardware.
+    -Implementar módulos de análisis que generen reportes detallados y permitan la identificación de posibles problemas.
+    -Crear una interfaz de usuario amigable para que los administradores de TI puedan acceder fácilmente a la información.
+    -Evaluar la efectividad del sistema a través de pruebas piloto y ajustar el software según los resultados obtenidos.
+
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
