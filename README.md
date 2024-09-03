@@ -14,9 +14,9 @@
 
 ## Contexto del Proyecto
 
-Hablamos con los dos chicos de soporte, el de turno de mañana (no sabemos su nombre) y el que vemos siempre en las tardes, Kenyi Chino. Nos comentó que sería beneficioso conocer el consumo de internet por laboratorios, para tener un análisis rápido sobre si el problema en un laboratorio es causado porque en otro laboratorio se está consumiendo mucho internet. También, para que él pueda reportar el consumo de internet por laboratorio, en este caso, solo uno: el laboratorio A.
+Hablamos con el personal de soporte de los turnos de mañana y tarde. En particular, discutimos con el encargado del turno de la tarde sobre la posibilidad de realizar un análisis detallado del consumo de internet por laboratorio. Se destacó que este análisis permitiría evaluar rápidamente si los problemas en un laboratorio podrían estar relacionados con el alto consumo de internet en otros laboratorios. Además, facilitaría la elaboración de informes sobre el consumo de internet para el laboratorio específico en cuestión.
 
-Kenyi nos dijo que sí, pero que deberíamos hablar con Lanchipa para que nos dé el visto bueno para el despliegue en algún laboratorio, ya que él es el encargado.
+Se estuvo de acuerdo con esta propuesta, pero se recomendó consultar con el ingeniero encargado para obtener la autorización necesaria para el despliegue del sistema en uno de los laboratorios.
 
 ## ¿Cómo lo haremos?
 
@@ -72,7 +72,7 @@ Habrá un archivo por cada fecha, y si el sistema detecta una nueva fecha (por e
 
 ### Imágenes
 
-- ![Python](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python_logo_2020.svg)
+- ![Python](https://www.python.org/static/community_logos/python-logo-generic.svg)
 - ![Tableau](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Tableau_Software_logo.svg/1200px-Tableau_Software_logo.svg.png)
 - ![Windows Task Scheduler](https://docs.microsoft.com/en-us/windows-server/administration/images/schedule-tasks.png)
 
