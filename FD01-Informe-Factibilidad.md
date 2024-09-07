@@ -110,6 +110,7 @@ Versión *{1.0}*
 2. <span id="_Toc52661347" class="anchor"></span>**Riesgos**
 
     -Retrasos en el Cronograma: Los retrasos en el desarrollo, pruebas o implementación podrían afectar la fecha de finalización del proyecto, especialmente si dependen de factores externos como la disponibilidad de hardware o la integración con sistemas existentes.
+   
     -Definición Inadecuada de Requisitos: Cambios en los requisitos durante el desarrollo podrían llevar a la necesidad de rediseñar partes del sistema, afectando el alcance y el tiempo del proyecto.  
    
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
@@ -118,14 +119,16 @@ Versión *{1.0}*
 
     3.1. Planteamiento del problema
 
-      En el contexto actual, la empresa enfrenta desafíos significativos en su proceso de alquiler de equipos para minería y construcción civil. Estos desafíos incluyen problemas de facturación debido a una gestión ineficiente de clientes y contratos, procesos poco claros para manejar la información del cliente y renovar los contratos, así como irregularidades en el cumplimiento de los términos del contrato. La falta de transparencia en la disponibilidad de maquinaria se debe a procesos complicados y prolongados para el alquiler de maquinaria pesada, registro manual de reservas que contribuye al desorden en el proceso, protocolos poco definidos para resolver problemas durante la reserva y procesos de aprobación y autorización tardados. Además, la ineficiente comunicación y coordinación entre departamentos sobre la disponibilidad de equipos, junto con registros de inventario desactualizados y protocolos poco claros, agravan este problema. Todo esto afecta la eficiencia operativa en el proceso de alquiler, con una limitada supervisión del mantenimiento de la maquinaria que resulta en deficiencias en la planificación y programación de las actividades de mantenimiento. Estos desafíos tienen un impacto directo en la rentabilidad de la empresa y su capacidad para satisfacer las demandas de una industria en evolución que exige digitalización y transparencia en las operaciones de alquiler. Los clientes buscan servicios que ofrezcan plataformas de reserva fáciles de usar, precisión en la disponibilidad de equipos y procesos de pago seguros y eficientes.
+      La Universidad Privada de Tacna (UPT) enfrenta desafíos significativos en la gestión del rendimiento de su red y hardware de computadoras. En el entorno actual, los administradores de TI lidian con la falta de herramientas adecuadas para monitorear y evaluar el estado y desempeño de los recursos tecnológicos. La ausencia de una solución integral limita la capacidad para identificar y solucionar problemas de manera proactiva, afectando la operación eficiente de la red y el rendimiento de las computadoras.
 
-   La industria de alquiler de equipos pesados está en un punto de inflexión, con una creciente demanda de digitalización y transparencia en las operaciones de alquiler. Los clientes buscan servicios que ofrecen plataformas de reserva fáciles de usar, precisión en la disponibilidad de equipos y procesos de pago seguros y eficientes.
+   Actualmente, la supervisión del rendimiento se realiza de manera fragmentada y manual, lo que resulta en un seguimiento inadecuado de los recursos tecnológicos. Esto genera dificultades para mantener las computadoras en un nivel óptimo de operación y para asegurar un funcionamiento continuo de la red. Además, la falta de análisis detallado y de datos en tiempo real impide una gestión efectiva del rendimiento y la identificación de patrones de uso, lo que podría llevar a problemas recurrentes no detectados a tiempo.
+
+   Para abordar estas deficiencias, es esencial desarrollar una herramienta de seguimiento y evaluación que permita un análisis detallado y en tiempo real del desempeño de la red y el hardware. Esta solución permitirá a los administradores de TI tomar decisiones informadas, identificar problemas potenciales antes de que se conviertan en fallos graves, y proponer mejoras basadas en datos concretos, optimizando así el rendimiento general de la infraestructura tecnológica de la UPT.
 
 
     3.2. Consideraciones de hardware y software
 
-   Para la implementación del proyecto de sistema de alquiler, se utilizará el lenguaje de programación PHP en su versión 7.4, que es una versión estable y ampliamente compatible. Como base de datos, se emplea MySQL en su versión 8.0, que ofrece robustez, escalabilidad y seguridad para gestionar eficientemente los datos de reservas e inventario. Estas elecciones tecnológicas están ampliamente estandarizadas en la industria y proporcionan un entorno de desarrollo confiable y bien soportado.
+   Para el proyecto "Herramienta de Seguimiento y Evaluación del Desempeño de Red y Hardware en Computadoras UPT", se utilizará Python 3.12.5 por su estabilidad y compatibilidad, y Tableau 2021.4 para visualizaciones avanzadas. Estas tecnologías, ampliamente reconocidas y estandarizadas en la industria, ofrecerán un entorno de desarrollo robusto y confiable.
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
