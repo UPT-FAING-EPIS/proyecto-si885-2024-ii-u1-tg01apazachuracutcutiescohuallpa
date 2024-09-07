@@ -132,12 +132,13 @@ Versión *{1.0}*
 
     4.1. <span id="_Toc52661350" class="anchor"></span>Factibilidad Técnica
 
-        El estudio de viabilidad técnica se enfoca en obtener un entendimiento de los recursos tecnológicos disponibles actualmente y su aplicabilidad a las necesidades que se espera tenga el proyecto. En el caso de tecnología informática esto implica una evaluación del hardware y software y como este puede cubrir las necesidades del sistema propuesto.
-
-        Realizar una evaluación de la tecnología actual existente y la posibilidad de utilizarla en el desarrollo e implantación del sistema.*
-
-        Describir acerca del hardware (equipos, servidor), software (aplicaciones, navegadores, sistemas operativos, dominio, internet, infraestructura de red física, etc.
-
+         Evaluación del Hardware:
+         • Equipos de Usuario: La UPT dispone de computadoras de escritorio con especificaciones modernas, incluyendo procesadores de última generación (Intel i5/i7 o AMD Ryzen), al menos 8 GB de memoria RAM, y almacenamiento en discos SSD o HDD. Estos equipos son adecuados para ejecutar los scripts de monitoreo y análisis de datos en tiempo real sin afectar el rendimiento general.
+         • Servidores: Los servidores disponibles en el centro de datos de la universidad están equipados con hardware suficiente para soportar la carga de procesamiento y almacenamiento del sistema propuesto. Estos servidores cuentan con configuraciones de alta disponibilidad y capacidad de almacenamiento que permiten centralizar los datos recolectados.
+         Evaluación del Software:
+         • Sistemas Operativos: La UPT utiliza sistemas operativos como Windows y distribuciones de Linux. Ambos sistemas son compatibles con los scripts y herramientas de monitoreo que se planea utilizar.
+         • Aplicaciones de Monitoreo: Se contempla el uso de herramientas de código abierto como Nagios, Zabbix o Grafana para la recolección, monitoreo y visualización del rendimiento de la red y del hardware. Estas aplicaciones son compatibles con los sistemas operativos en uso y pueden integrarse fácilmente en la infraestructura existente.
+   
     4.2. <span id="_Toc52661351" class="anchor"></span>Factibilidad Económica
 
         El propósito del estudio de viabilidad económica, es determinar los beneficios económicos del proyecto o sistema propuesto para la organización, en contraposición con los costos.
