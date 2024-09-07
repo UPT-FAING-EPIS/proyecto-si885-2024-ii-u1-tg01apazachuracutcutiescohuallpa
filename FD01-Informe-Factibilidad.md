@@ -109,9 +109,9 @@ Versión *{1.0}*
 
 2. <span id="_Toc52661347" class="anchor"></span>**Riesgos**
 
-    -Retrasos en el Cronograma: Los retrasos en el desarrollo, pruebas o implementación podrían afectar la fecha de finalización del proyecto, especialmente si dependen de factores externos como la disponibilidad de hardware o la integración con sistemas existentes.
+-Retrasos en el Cronograma: Los retrasos en el desarrollo, pruebas o implementación podrían afectar la fecha de finalización del proyecto, especialmente si dependen de factores externos como la disponibilidad de hardware o la integración con sistemas existentes.
    
-    -Definición Inadecuada de Requisitos: Cambios en los requisitos durante el desarrollo podrían llevar a la necesidad de rediseñar partes del sistema, afectando el alcance y el tiempo del proyecto.  
+-Definición Inadecuada de Requisitos: Cambios en los requisitos durante el desarrollo podrían llevar a la necesidad de rediseñar partes del sistema, afectando el alcance y el tiempo del proyecto.  
    
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
