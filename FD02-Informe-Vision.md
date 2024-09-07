@@ -251,10 +251,10 @@ e) Estandaraes de calidad y seguridad	](#_toc394513800)42
 
 | **Concepto**  | **Costo Total (S/.)** |
 |---------------|------------------------|
-| **Costos Generales** | | 3,222.00 |
-| **Costos Operativos durante el Desarrollo** | Aún nada | 500.00 |
-| **Costos del Ambiente** | | 450.00 |
-| **Costos de Personal** |  | 6,000.00 |
+| **Costos Generales** | 3,222.00 |
+| **Costos Operativos durante el Desarrollo** | 500.00 |
+| **Costos del Ambiente** | 450.00 |
+| **Costos de Personal** |  6,000.00 |
 | **Total** | 10,172.00 |
 
 ### 4.5 Licenciamiento e instalación <span id="licenciamiento-instalacion" class="anchor"></span>
