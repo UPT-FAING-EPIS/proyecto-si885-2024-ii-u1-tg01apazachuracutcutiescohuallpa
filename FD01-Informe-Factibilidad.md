@@ -213,6 +213,14 @@ Versión *{1.0}*
       4.2.5.  Costos totales del desarrollo del sistema
 
       {Totalizar costos y realizar resumen de costo final del proyecto y la forma de pago.
+   
+   |Concepto|Costo Total (S/)|
+   | :-: | :- |
+   |Costos Generales|3,222.00|
+   |Costos Operativos durante el Desarrollo|500.00|
+   |Costos del Ambiente|450.00|
+   |Costos del Personal|6,000.00|
+   |Total|10,172.00|
 
       4.3. <span id="_Toc52661352" class="anchor"></span>Factibilidad Operativa
 
