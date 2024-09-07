@@ -85,7 +85,7 @@ Versión *{1.0}*
     
 1.2. Duración del proyecto
 
-    Empieza el 13 de agosto y termina el . (aun por definir)
+    Empieza el 13 de agosto y termina el 13 diciembre
 
 1.3. Descripción
 
