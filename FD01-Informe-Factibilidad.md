@@ -190,6 +190,8 @@ Versión *{1.0}*
     4.3. <span id="_Toc52661352" class="anchor"></span>Factibilidad Operativa
 
          -Optimización de Recursos: La herramienta ayudará a optimizar la utilización de los recursos tecnológicos al proporcionar datos detallados sobre el uso del hardware y la red. Esta información permitirá a la universidad tomar decisiones informadas sobre el mantenimiento, la actualización o la redistribución de equipos y recursos.
+         -Mejora en la Toma de Decisiones: Al disponer de información precisa y actualizada sobre el desempeño de la infraestructura tecnológica, los administradores podrán tomar decisiones basadas en datos para mejorar la eficiencia operativa y la calidad del servicio ofrecido a los estudiantes y personal académico.
+   
     4.4. <span id="_Toc52661353" class="anchor"></span>Factibilidad Legal
 
          -Protección de Datos Personales: La recopilación y análisis de datos debe cumplir con las leyes de protección de datos personales en Perú, como la Ley de Protección de Datos Personales (Ley N° 29733). La herramienta debe garantizar que cualquier dato personal recogido sea anonimizado y utilizado exclusivamente con fines académicos y de mejora del desempeño de los equipos.
