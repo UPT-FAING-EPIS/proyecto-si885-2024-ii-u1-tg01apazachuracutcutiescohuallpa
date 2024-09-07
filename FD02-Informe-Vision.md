@@ -310,25 +310,25 @@ e) Estandaraes de calidad y seguridad	](#_toc394513800)42
 
 ## RECOMENDACIONES <span id="recomendaciones" class="anchor"></span>
 
--Capacitación continua del personal técnico: Asegúrate de que el equipo de soporte técnico reciba formación continua en el uso y mantenimiento del nuevo sistema. Esto ayudará a maximizar el rendimiento del sistema y a minimizar los tiempos de inactividad.
-
--Realizar pruebas piloto antes del despliegue completo: Es recomendable llevar a cabo un despliegue piloto en uno o dos laboratorios antes de implementar el sistema en toda la universidad. Esto permitirá identificar y resolver cualquier problema antes de la implementación a gran escala.
-
--Monitoreo constante durante la fase inicial: Durante los primeros meses de operación, se debe realizar un monitoreo continuo del sistema para identificar posibles problemas de rendimiento o compatibilidad. Esto permitirá realizar ajustes y optimizaciones rápidamente.
-
--Crear un plan de contingencia: Desarrolla un plan de contingencia para manejar cualquier problema crítico que pueda surgir durante la implementación o operación del sistema. Esto incluiría procedimientos para la recuperación del sistema y la continuidad de las operaciones.
-
--Recoger feedback de los usuarios: Es importante recoger el feedback de los usuarios, especialmente del personal de soporte técnico y los estudiantes, para entender cómo el sistema puede mejorar y adaptarse a sus necesidades. Esto puede ayudar a guiar futuras actualizaciones y mejoras.
-
--Actualizar la infraestructura según sea necesario: Si se detecta que la infraestructura actual no es suficiente para soportar el sistema de manera óptima, se deben planificar y ejecutar actualizaciones de hardware o software para garantizar un rendimiento eficiente.
-
--Documentación exhaustiva: Asegúrate de que toda la documentación, tanto para los usuarios como para los técnicos, esté completa y actualizada. Esto facilitará la resolución de problemas y la formación de nuevos usuarios.
-
--Evaluar la seguridad periódicamente: Realiza evaluaciones de seguridad periódicas para asegurarte de que los datos y el acceso al sistema están protegidos adecuadamente, y que se cumplen las políticas de seguridad de la universidad.
-
--Planificar futuras expansiones: Considera desde el principio la posibilidad de futuras expansiones del sistema, ya sea añadiendo más laboratorios, funciones adicionales, o integraciones con otros sistemas. Esto permitirá que el sistema crezca y evolucione junto con las necesidades de la universidad.
-
--Involucrar a los interesados en el proceso: Mantén una comunicación constante con todos los interesados del proyecto, asegurándote de que estén informados sobre el progreso y cualquier cambio significativo. Su participación activa puede facilitar la adopción del sistema y contribuir al éxito general del proyecto.
+    -Capacitación continua del personal técnico: Asegúrate de que el equipo de soporte técnico reciba formación continua en el uso y mantenimiento del nuevo sistema. Esto ayudará a maximizar el rendimiento del sistema y a minimizar los tiempos de inactividad.
+    
+    -Realizar pruebas piloto antes del despliegue completo: Es recomendable llevar a cabo un despliegue piloto en uno o dos laboratorios antes de implementar el sistema en toda la universidad. Esto permitirá identificar y resolver cualquier problema antes de la implementación a gran escala.
+    
+    -Monitoreo constante durante la fase inicial: Durante los primeros meses de operación, se debe realizar un monitoreo continuo del sistema para identificar posibles problemas de rendimiento o compatibilidad. Esto permitirá realizar ajustes y optimizaciones rápidamente.
+    
+    -Crear un plan de contingencia: Desarrolla un plan de contingencia para manejar cualquier problema crítico que pueda surgir durante la implementación o operación del sistema. Esto incluiría procedimientos para la recuperación del sistema y la continuidad de las operaciones.
+    
+    -Recoger feedback de los usuarios: Es importante recoger el feedback de los usuarios, especialmente del personal de soporte técnico y los estudiantes, para entender cómo el sistema puede mejorar y adaptarse a sus necesidades. Esto puede ayudar a guiar futuras actualizaciones y mejoras.
+    
+    -Actualizar la infraestructura según sea necesario: Si se detecta que la infraestructura actual no es suficiente para soportar el sistema de manera óptima, se deben planificar y ejecutar actualizaciones de hardware o software para garantizar un rendimiento eficiente.
+    
+    -Documentación exhaustiva: Asegúrate de que toda la documentación, tanto para los usuarios como para los técnicos, esté completa y actualizada. Esto facilitará la resolución de problemas y la formación de nuevos usuarios.
+    
+    -Evaluar la seguridad periódicamente: Realiza evaluaciones de seguridad periódicas para asegurarte de que los datos y el acceso al sistema están protegidos adecuadamente, y que se cumplen las políticas de seguridad de la universidad.
+    
+    -Planificar futuras expansiones: Considera desde el principio la posibilidad de futuras expansiones del sistema, ya sea añadiendo más laboratorios, funciones adicionales, o integraciones con otros sistemas. Esto permitirá que el sistema crezca y evolucione junto con las necesidades de la universidad.
+    
+    -Involucrar a los interesados en el proceso: Mantén una comunicación constante con todos los interesados del proyecto, asegurándote de que estén informados sobre el progreso y cualquier cambio significativo. Su participación activa puede facilitar la adopción del sistema y contribuir al éxito general del proyecto.
 
 <span id="_Toc52661357" class="anchor"></span>**BIBLIOGRAFIA**
 
