@@ -183,10 +183,17 @@ Versión *{1.0}*
    |Concepto|Costo|
    | :-: | :- |
    |Viáticos|500.00||
+   |Total|500.00|
 
       4.2.3. Costos del ambiente
 
       Evaluar si se cuenta con los requerimientos técnicos para la implantación del software como el dominio, infraestructura de red, acceso a internet, etc.
+   
+   |Concepto|Costo|
+   | :-: | :- |
+   |Servicio VPS (Nube)|350.00||
+   |Software de Diagramas y Arquitectura del Proyecto|100.00|
+   |Total|450.00|
 
       4.2.4. Costos de personal
 
@@ -197,6 +204,11 @@ Versión *{1.0}*
       Incluir tabla que muestra los gastos correspondientes al personal.
 
       Indicar organización y roles. Indicar horario de trabajo del personal.
+   
+   |Rol|Personas|Salario Mensual|Horas Mensuales|
+   | :-: | :- | :- | :- |
+   |Desarrollador|4|1000|60|
+   |Gerente de Proyecto|1|1200|60|
 
       4.2.5.  Costos totales del desarrollo del sistema
 
