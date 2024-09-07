@@ -109,8 +109,8 @@ Versión *{1.0}*
 
 2. <span id="_Toc52661347" class="anchor"></span>**Riesgos**
 
-    Retrasos en el Cronograma: Los retrasos en el desarrollo, pruebas o implementación podrían afectar la fecha de finalización del proyecto, especialmente si dependen de factores externos como la disponibilidad de hardware o la integración con sistemas existentes.
-Definición Inadecuada de Requisitos: Cambios en los requisitos durante el desarrollo podrían llevar a la necesidad de rediseñar partes del sistema, afectando el alcance y el tiempo del proyecto.
+   Retrasos en el Cronograma: Los retrasos en el desarrollo, pruebas o implementación podrían afectar la fecha de finalización del proyecto, especialmente si dependen de factores externos como la disponibilidad de hardware o la integración con sistemas existentes.
+   Definición Inadecuada de Requisitos: Cambios en los requisitos durante el desarrollo podrían llevar a la necesidad de rediseñar partes del sistema, afectando el alcance y el tiempo del proyecto.
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
@@ -118,11 +118,14 @@ Definición Inadecuada de Requisitos: Cambios en los requisitos durante el desar
 
     3.1. Planteamiento del problema
 
-            Describa antecedentes y situación actual, explicando la problemática y/o necesidad que será resuelta con el proyecto propuesto.
+   En el contexto actual, la empresa enfrenta desafíos significativos en su proceso de alquiler de equipos para minería y construcción civil. Estos desafíos incluyen problemas de facturación debido a una gestión ineficiente de clientes y contratos, procesos poco claros para manejar la información del cliente y renovar los contratos, así como irregularidades en el cumplimiento de los términos del contrato. La falta de transparencia en la disponibilidad de maquinaria se debe a procesos complicados y prolongados para el alquiler de maquinaria pesada, registro manual de reservas que contribuye al desorden en el proceso, protocolos poco definidos para resolver problemas durante la reserva y procesos de aprobación y autorización tardados. Además, la ineficiente comunicación y coordinación entre departamentos sobre la disponibilidad de equipos, junto con registros de inventario desactualizados y protocolos poco claros, agravan este problema. Todo esto afecta la eficiencia operativa en el proceso de alquiler, con una limitada supervisión del mantenimiento de la maquinaria que resulta en deficiencias en la planificación y programación de las actividades de mantenimiento. Estos desafíos tienen un impacto directo en la rentabilidad de la empresa y su capacidad para satisfacer las demandas de una industria en evolución que exige digitalización y transparencia en las operaciones de alquiler. Los clientes buscan servicios que ofrezcan plataformas de reserva fáciles de usar, precisión en la disponibilidad de equipos y procesos de pago seguros y eficientes.
+
+   La industria de alquiler de equipos pesados está en un punto de inflexión, con una creciente demanda de digitalización y transparencia en las operaciones de alquiler. Los clientes buscan servicios que ofrecen plataformas de reserva fáciles de usar, precisión en la disponibilidad de equipos y procesos de pago seguros y eficientes.
+
 
     3.2. Consideraciones de hardware y software
 
-            Hardware y software posibles para la implementación, se analizara lo que existe y es alcanzable, se evaluara que tecnología se puede > utilizar en el proyecto.
+   Para la implementación del proyecto de sistema de alquiler, se utilizará el lenguaje de programación PHP en su versión 7.4, que es una versión estable y ampliamente compatible. Como base de datos, se emplea MySQL en su versión 8.0, que ofrece robustez, escalabilidad y seguridad para gestionar eficientemente los datos de reservas e inventario. Estas elecciones tecnológicas están ampliamente estandarizadas en la industria y proporcionan un entorno de desarrollo confiable y bien soportado.
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
