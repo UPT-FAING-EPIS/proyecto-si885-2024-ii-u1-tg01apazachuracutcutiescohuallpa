@@ -135,10 +135,16 @@ Versión *{1.0}*
          Evaluación del Hardware:
          • Equipos de Usuario: La UPT dispone de computadoras de escritorio con especificaciones modernas, incluyendo procesadores de última generación (Intel i5/i7 o AMD Ryzen), al menos 8 GB de memoria RAM, y almacenamiento en discos SSD o HDD. Estos equipos son adecuados para ejecutar los scripts de monitoreo y análisis de datos en tiempo real sin afectar el rendimiento general.
          • Servidores: Los servidores disponibles en el centro de datos de la universidad están equipados con hardware suficiente para soportar la carga de procesamiento y almacenamiento del sistema propuesto. Estos servidores cuentan con configuraciones de alta disponibilidad y capacidad de almacenamiento que permiten centralizar los datos recolectados.
+   
          Evaluación del Software:
          • Sistemas Operativos: La UPT utiliza sistemas operativos como Windows y distribuciones de Linux. Ambos sistemas son compatibles con los scripts y herramientas de monitoreo que se planea utilizar.
          • Aplicaciones de Monitoreo: Se contempla el uso de herramientas de código abierto como Nagios, Zabbix o Grafana para la recolección, monitoreo y visualización del rendimiento de la red y del hardware. Estas aplicaciones son compatibles con los sistemas operativos en uso y pueden integrarse fácilmente en la infraestructura existente.
    
+         Infraestructura de Red:
+         • Conectividad a Internet: La UPT cuenta con conectividad a internet mediante fibra óptica, ofreciendo alta velocidad y estabilidad para la transferencia de datos en tiempo real.
+         • Red Física: La infraestructura de red incluye routers, switches y puntos de acceso inalámbricos distribuidos por el campus. Esta red está diseñada para soportar múltiples dispositivos conectados simultáneamente, facilitando la recolección de datos de diferentes puntos sin sobrecargar los recursos.
+
+
     4.2. <span id="_Toc52661351" class="anchor"></span>Factibilidad Económica
 
         El propósito del estudio de viabilidad económica, es determinar los beneficios económicos del proyecto o sistema propuesto para la organización, en contraposición con los costos.
