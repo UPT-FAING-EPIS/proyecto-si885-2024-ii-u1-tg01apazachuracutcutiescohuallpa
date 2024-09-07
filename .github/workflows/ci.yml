@@ -1,0 +1,38 @@
+name: Buscar Archivos en Repositorio
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  search-files:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v3
+
+    - name: Buscar archivos
+      id: search_files
+      run: |
+        # Definir las rutas de los archivos
+        FILES=("FD01-Informe-Factibilidad.md" "FD02-Informe-Vision.md")
+        RESULTS=""
+
+        for FILE in "${FILES[@]}"; do
+          if [ -f "$FILE" ]; then
+            RESULTS+="$FILE existe.\n"
+          else
+            RESULTS+="$FILE no existe.\n"
+          fi
+        done
+
+        echo -e "$RESULTS"
+        echo "::set-output name=results::$RESULTS"
+
+    - name: Mostrar resultados
+      run: |
+        echo "Resultados de la búsqueda:"
+        echo "${{ steps.search_files.outputs.results }}"
