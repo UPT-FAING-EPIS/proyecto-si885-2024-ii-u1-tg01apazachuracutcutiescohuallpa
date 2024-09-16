@@ -1,20 +1,21 @@
 @echo off
-
-REM Verificar si Python está instalado
-echo Verificando la instalación de Python...
-where python > nul 2>&1
-if %errorlevel% neq 0 (
-    echo Python no se encontró en el PATH.
-    echo Asegúrate de que Python esté instalado correctamente antes de ejecutar este script.
-    pause
+:: Comprueba si el script tiene privilegios de administrador
+:: Si no los tiene, pide la elevación a administrador
+net session >nul 2>&1
+if %errorLevel% neq 0 (
+    echo Requiere permisos de administrador. Intentando ejecutar con elevación...
+    powershell -Command "Start-Process '%~f0' -Verb RunAs"
     exit /b
 )
 
-REM Actualizar pip e instalar dependencias necesarias
-echo Instalando dependencias...
-python -m pip install --upgrade pip
-python -m pip install psutil
-python -m pip install openpyxl
+:: Inicia la instalación de dependencias
+echo Instalando dependencias de Python...
 
-echo Instalación de dependencias completada con éxito.
+:: Instalación de psutil
+pip install psutil
+
+:: Instalación de mysql-connector-python
+pip install mysql-connector-python
+
+echo Instalación completa.
 pause
