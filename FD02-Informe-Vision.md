@@ -307,10 +307,16 @@ e) Estandaraes de calidad y seguridad	](#_toc394513800)42
     
     Escalabilidad: El sistema debe ser escalable para soportar el crecimiento de la infraestructura tecnológica de la universidad, permitiendo la incorporación de nuevos laboratorios y equipos sin comprometer el rendimiento.
 
-
-8. <span id="_Toc52661353" class="anchor"></span>**Precedencia y Prioridad**
-   
+## 8. Precedencia y Prioridad
     El desarrollo del sistema de monitoreo y evaluación de red y hardware debe priorizar los componentes más críticos para su correcta implementación y operación. El enfoque principal será asegurar que las funcionalidades esenciales estén disponibles en la primera fase de desarrollo, y posteriormente se añadirán características adicionales.
+
+### 1.1 Propósito <span id="proposito" class="anchor"></span>
+
+    Recopilar y analizar datos del sistema: Obtener información detallada sobre el uso de recursos de las computadoras en los laboratorios de la universidad, con el fin de identificar patrones y áreas de mejora.
+    
+    Evaluar el rendimiento y el consumo: Identificar el consumo de energía y el rendimiento en términos de uso de CPU, RAM, GPU, así como el consumo de internet, para optimizar la eficiencia operativa.
+    
+    Optimización del soporte: Proporcionar datos útiles para mejorar el soporte técnico, el mantenimiento preventivo y correctivo de las computadoras, y asegurar su óptimo funcionamiento.
 
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
