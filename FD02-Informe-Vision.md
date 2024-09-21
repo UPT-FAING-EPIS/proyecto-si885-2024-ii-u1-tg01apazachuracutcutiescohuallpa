@@ -312,7 +312,8 @@ e) Estandaraes de calidad y seguridad	](#_toc394513800)42
 
 | **Roles**         | **Nro.** | **Requerimiento Funcional**          | **Descripción**                                                                                                      |
 |-------------------|----------|--------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-
+| **Administrador**  | 1        | Autenticación segura                 | Implementar un sistema de autenticación para proteger el acceso al sistema y los datos.                               |
+| **Administrador**  | 2        | Almacenamiento de datos              | Almacenar los datos recolectados sobre el rendimiento de hardware y red en una base de datos segura.                  |
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
