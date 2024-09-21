@@ -230,6 +230,8 @@ e) Estandaraes de calidad y seguridad	](#_toc394513800)42
 | 2 | Generación de informes personalizados | Los administradores requieren la capacidad de generar informes detallados sobre el estado del hardware y el uso de la red. | Media | La personalización puede hacer que el sistema sea más complejo de usar | Proveer plantillas de informes que puedan ser personalizadas fácilmente por los usuarios. |
 | 3 | Optimización del soporte técnico | Los interesados necesitan una forma de mejorar la eficiencia en el soporte técnico mediante datos precisos sobre el uso de los recursos. | Media | La cantidad de datos podría ser abrumadora | Filtrar y mostrar los datos más relevantes para el soporte técnico. |
 | 4 | Interfaz intuitiva | Los usuarios finales prefieren una interfaz sencilla e intuitiva para interactuar con el sistema. | Media | Algunos usuarios podrían necesitar formación adicional | Realizar pruebas de usabilidad y ofrecer una guía de uso dentro del sistema. |
+| 5 | Almacenamiento de datos | Los datos recolectados sobre el uso de hardware y la red deben almacenarse en una base de datos para análisis futuro. | Alta | Seguridad y consistencia de los datos en la base de datos | Implementar una base de datos robusta (ej. MySQL, PostgreSQL) con procedimientos de respaldo y restauración. |
+
 
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
