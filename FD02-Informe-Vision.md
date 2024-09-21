@@ -226,6 +226,9 @@ e) Estandaraes de calidad y seguridad	](#_toc394513800)42
 
 | **Nro.** | **Requerimiento Funcional** | **Descripción** | **Prioridad** | **Inquietudes** | **Solución Propuesta** |
 | --- | --- | --- | --- | --- | --- |
+| 1 | Autenticación segura | Los interesados y usuarios necesitan un sistema de autenticación que asegure que solo el personal autorizado pueda acceder a los datos y funciones del sistema. | Alta | Seguridad de los datos | Implementar un sistema de autenticación con contraseñas seguras y, de ser posible, autenticación de dos factores. |
+
+
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
