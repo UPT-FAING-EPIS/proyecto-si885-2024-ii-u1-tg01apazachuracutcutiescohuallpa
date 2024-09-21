@@ -17,21 +17,27 @@
 ## Dashboard y Reportes
 
 - **Dashboard**:
+  
   ![Dashboard](images/dashboard1.png)
 
 - **Reporte 1**:
+  
   ![Reporte 1](images/reporte1.png)
 
 - **Reporte 2**:
+  
   ![Reporte 2](images/reporte2.png)
 
 - **Reporte 3**:
+  
   ![Reporte 3](images/reporte3.png)
 
 - **Reporte 4**:
+  
   ![Reporte 4](images/reporte4.png)
 
 - **Reporte 5**:
+  
   ![Reporte 5](images/reporte5.png)
 
 ## Inventario de Artefactos
