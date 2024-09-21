@@ -338,7 +338,16 @@ e) Estandaraes de calidad y seguridad	](#_toc394513800)42
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
-<span id="_Toc52661355" class="anchor"></span>**CONCLUSIONES**
+## CONCLUSIONES
+1. **Mejora en la Eficiencia**: La herramienta permitirá una gestión más eficiente de los recursos tecnológicos en los laboratorios, facilitando la identificación y solución de problemas de rendimiento.
+
+2. **Proactividad en el Soporte Técnico**: Al monitorear continuamente el estado de las computadoras, se podrá anticipar y resolver fallos antes de que afecten a los usuarios, mejorando la experiencia de estudiantes y docentes.
+
+3. **Optimización del Consumo Energético**: El sistema ayudará a reducir el consumo de energía al identificar equipos subutilizados o en mal estado, promoviendo prácticas más sostenibles en el uso de recursos.
+
+4. **Facilidad de Uso**: La interfaz diseñada para la herramienta será accesible y fácil de usar, permitiendo al personal técnico y administrativo acceder a datos y generar informes sin complicaciones.
+
+5. **Sostenibilidad del Proyecto**: La implementación del sistema asegurará que la gestión de recursos tecnológicos se mantenga actualizada y eficiente a largo plazo.
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
