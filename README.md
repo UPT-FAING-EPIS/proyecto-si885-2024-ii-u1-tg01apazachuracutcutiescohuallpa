@@ -56,10 +56,10 @@ Hablamos con el personal de soporte de los turnos de mañana y tarde. En particu
 
 Se estuvo de acuerdo con esta propuesta, pero se recomendó consultar con el ingeniero encargado para obtener la autorización necesaria para el despliegue del sistema en uno de los laboratorios.
 
-## ¿Cómo lo haremos?
+## ¿Cómo se realiza?
 
-* Utilizaremos un script de Python 
-* Tarea programada de Windows
+* Se utiliza un script de Python 
+* Tareas programada de Windows
 
 ### Librerías utilizadas en el código
 
