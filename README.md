@@ -65,18 +65,20 @@ Se estuvo de acuerdo con esta propuesta, pero se recomendó consultar con el ing
 
 - **psutil**: Para obtener estadísticas de uso de recursos del sistema, como CPU, memoria y red.
 - **time**: Para manejar operaciones relacionadas con tiempo, como pausas en la ejecución del script.
-- **openpyxl**: Para trabajar con archivos Excel.
-- **from openpyxl import Workbook, load_workbook**: Para crear y manipular hojas de cálculo de Excel.
+- **mysql-connector**: Para interactuar con bases de datos MySQL desde Python, permitiendo la inserción y consulta de datos.
 - **socket**: Para obtener información de red, como la IP del equipo.
 - **ctypes**: Para realizar llamadas a funciones del sistema operativo Windows.
+
 
 ### Problemas encontrados
 
 - **Uso de Python en lugar de PowerShell (.ps1)**: Inicialmente, se intentó realizar el script en PowerShell, pero no proporcionaba correctamente el consumo de red, por lo que decidimos optar por Python, un intérprete muy conocido y con una amplia comunidad de ayuda en foros.
 - **Falta de Python en algunas PCs de los laboratorios**: Algunas PCs no tienen Python instalado, lo que dificultaría la instalación del script.
-- **Dependencias adicionales**: Ciertas librerías necesarias (como `psutil` y `openpyxl`) no vienen instaladas de forma predeterminada con Python.
+- **Dependencias adicionales**: Ciertas librerías necesarias (como `psutil` y `mysql-connector`) no vienen instaladas de forma predeterminada con Python.
 - **Riesgo de eliminación del script**: Es fácil para los estudiantes eliminar el contenido del script en cualquier ordenador.
 - **Mover archivos manualmente**: Trasladar archivos a directorios de forma manual lleva tiempo y puede implicar errores humanos.
+- **Fácil daño de archivos XLSX por sobreescritura en tiempo real**: Trabajar con archivos Excel para registrar información de red en tiempo real puede generar errores debido a la constante sobreescritura, dañando los archivos y perdiendo datos importantes.
+
 
 ### Soluciones
 
@@ -88,25 +90,55 @@ Se estuvo de acuerdo con esta propuesta, pero se recomendó consultar con el ing
 
 ### ¿Cómo funciona?
 
-El script crea un archivo `trafico_red.xlsx`, que es entendible para nuestro programa Tableau, dividiendo la información en columnas y obteniendo los siguientes datos:
+El script actualiza la base de datos `trafico_red_db` en lugar de crear un archivo `trafico_red.xlsx`. La información se divide en columnas y se almacena en la tabla `trafico_red`, obteniendo los siguientes datos:
 
 - Fecha
-- Hora
-- Minuto
-- Segundo
-- Bytes Enviados (MB)
-- Bytes Recibidos (MB)
+- IP
+- Clase
+- Horario
+- Día
+- Turno
+- Laboratorio
 - Total Enviado (MB)
 - Total Recibido (MB)
-- Total General (MB)
-- IP
-- Aplicación Activa
+- Tema
+- Navegador
+- Sección
+- Docente
+- Total Mbps
+- Total GB
+- Tiempo de Sesión
+- Consumo de Energía (kWh)
 
-Lo más importante es el total recibido y enviado junto al total general de ambos.
+Lo más importante es el total recibido y enviado, junto al total general de ambos. 
 
-El archivo será enviado desde `sosahijas@gmail.com` a `sosahijas@gmail.com`, usando como nombre de archivo la fecha y la IP del ordenador desde el cual se envía.
+El script realiza actualizaciones en la base de datos respecto al consumo de la computadora (IP) y ya no envía más reportes por Gmail.
 
-Habrá un archivo por cada fecha, y si el sistema detecta una nueva fecha (por ejemplo, al apagar y comenzar de nuevo), recopilará los datos y enviará el correo electrónico.
+### Estructura de la Base de Datos
+
+```sql
+DROP TABLE IF EXISTS `trafico_red`;
+CREATE TABLE IF NOT EXISTS `trafico_red` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `fecha` date NOT NULL,
+  `ip` varchar(255) NOT NULL,
+  `clase` varchar(255) NOT NULL,
+  `horario` varchar(255) NOT NULL,
+  `dia` varchar(255) NOT NULL,
+  `turno` varchar(255) NOT NULL,
+  `laboratorio` varchar(255) NOT NULL,
+  `total_enviado_mb` decimal(10,2) NOT NULL,
+  `total_recibido_mb` decimal(10,2) NOT NULL,
+  `tema` varchar(255) NOT NULL,
+  `navegador` varchar(255) NOT NULL,
+  `seccion` varchar(255) NOT NULL,
+  `docente` varchar(255) NOT NULL,
+  `total_mbps` decimal(20,6) DEFAULT NULL,
+  `total_GB` decimal(20,6) DEFAULT NULL,
+  `tiempo_sesion` time DEFAULT NULL,
+  `consumo_energia_kwh` decimal(20,6) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);
 
 ### Software
 
