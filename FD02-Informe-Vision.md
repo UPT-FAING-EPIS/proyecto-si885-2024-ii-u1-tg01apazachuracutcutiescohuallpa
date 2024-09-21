@@ -222,6 +222,8 @@ e) Estandaraes de calidad y seguridad	](#_toc394513800)42
 | **Soporte Técnico** | Personal técnico encargado del monitoreo, diagnóstico y resolución de problemas. | Técnico | Configurar el sistema, gestionar el rendimiento de los equipos. | Eficacia en la resolución de problemas y mantenimiento de equipos. | Participación activa en la gestión diaria de los recursos tecnológicos. |
 | **Estudiantes** | Usuarios finales que utilizan las computadoras para sus actividades académicas. | Usuario final | Utilizar los recursos tecnológicos para tareas académicas. | Eficiencia y efectividad en el uso de los recursos tecnológicos. | Uso regular de los equipos en sus actividades académicas. |
 
+### 3.6 Necesidades de los interesados y usuarios
+
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
 ## 4. Vista General del Producto <span id="vista-general-producto" class="anchor"></span>
