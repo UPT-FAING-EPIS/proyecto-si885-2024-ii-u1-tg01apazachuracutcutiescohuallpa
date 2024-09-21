@@ -12,6 +12,43 @@
 
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=15560310)
 
+# Proyecto: Herramienta de Seguimiento y Evaluación del Desempeño de Red y Hardware en Computadoras UPT
+
+## Dashboard y Reportes
+
+- **Dashboard**:
+  ![Dashboard](images/dashboard.png)
+
+- **Reporte 1**:
+  ![Reporte 1](images/reporte1.png)
+
+- **Reporte 2**:
+  ![Reporte 2](images/reporte2.png)
+
+- **Reporte 3**:
+  ![Reporte 3](images/reporte3.png)
+
+- **Reporte 4**:
+  ![Reporte 4](images/reporte4.png)
+
+- **Reporte 5**:
+  ![Reporte 5](images/reporte5.png)
+
+## Inventario de Artefactos
+
+| Archivo                      | Descripción                               |
+|------------------------------|-------------------------------------------|
+| `trafico_red_db.sql`          | Base de datos MySQL que contiene las tablas y registros necesarios para el seguimiento del tráfico de red en los laboratorios. |
+| `DesempeñoRed.tbpw`           | Archivo empaquetado de Tableau que contiene los informes y visualizaciones del desempeño de la red. |
+
+## Enlace a Tableau Public
+
+Puedes ver el informe interactivo completo en Tableau Public a través del siguiente enlace:
+
+[![Ver en Tableau Public](https://img.shields.io/badge/Ver_Informe_Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/albert.kenyi.apaza.ccalle/viz/ejemploempaquetado/clasequemasinternetconsume?publish=yes)
+
+
+
 ## Contexto del Proyecto
 
 Hablamos con el personal de soporte de los turnos de mañana y tarde. En particular, discutimos con el encargado del turno de la tarde sobre la posibilidad de realizar un análisis detallado del consumo de internet por laboratorio. Se destacó que este análisis permitiría evaluar rápidamente si los problemas en un laboratorio podrían estar relacionados con el alto consumo de internet en otros laboratorios. Además, facilitaría la elaboración de informes sobre el consumo de internet para el laboratorio específico en cuestión.
