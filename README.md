@@ -43,9 +43,10 @@
 
 ## Enlace a Tableau Public
 
-Puedes ver el informe interactivo completo en Tableau Public a través del siguiente enlace:
+Puedes ver el informe interactivo completo en Tableau Public a través del siguiente enlace: 
 
-[![Ver en Tableau Public](https://img.shields.io/badge/Ver_Informe_Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/albert.kenyi.apaza.ccalle/viz/ejemploempaquetado/clasequemasinternetconsume?publish=yes)
+
+[![Ver en Tableau Public](https://img.shields.io/badge/Ver_Informe_Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/albert.kenyi.apaza.ccalle/viz/DashboardUPT/Dashboard1?publish=yes)
 
 
 
