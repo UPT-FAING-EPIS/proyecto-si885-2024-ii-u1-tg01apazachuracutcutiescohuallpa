@@ -227,7 +227,7 @@ e) Estandaraes de calidad y seguridad	](#_toc394513800)42
 | **Nro.** | **Requerimiento Funcional** | **Descripción** | **Prioridad** | **Inquietudes** | **Solución Propuesta** |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Autenticación segura | Los interesados y usuarios necesitan un sistema de autenticación que asegure que solo el personal autorizado pueda acceder a los datos y funciones del sistema. | Alta | Seguridad de los datos | Implementar un sistema de autenticación con contraseñas seguras y, de ser posible, autenticación de dos factores. |
-
+| 2 | Generación de informes personalizados | Los administradores requieren la capacidad de generar informes detallados sobre el estado del hardware y el uso de la red. | Media | La personalización puede hacer que el sistema sea más complejo de usar | Proveer plantillas de informes que puedan ser personalizadas fácilmente por los usuarios. |
 
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
