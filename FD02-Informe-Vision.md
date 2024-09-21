@@ -314,6 +314,11 @@ e) Estandaraes de calidad y seguridad	](#_toc394513800)42
 |-------------------|----------|--------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | **Administrador**  | 1        | Autenticación segura                 | Implementar un sistema de autenticación para proteger el acceso al sistema y los datos.                               |
 | **Administrador**  | 2        | Almacenamiento de datos              | Almacenar los datos recolectados sobre el rendimiento de hardware y red en una base de datos segura.                  |
+| **Administrador**  | 3        | Generación de informes personalizados| Permitir a los administradores crear informes detallados sobre el rendimiento y uso de los recursos.                  |
+| **Soporte Técnico**| 4        | Optimización del soporte técnico     | Usar los datos recolectados para mejorar la eficiencia del soporte técnico mediante diagnósticos rápidos.             |
+| **Administrador**  | 5        | Exportación de datos para Tableau    | Exportar los datos almacenados en formatos compatibles con herramientas de análisis como Tableau.                     |
+
+
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
