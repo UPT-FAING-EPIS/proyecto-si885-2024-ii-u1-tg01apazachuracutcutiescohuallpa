@@ -228,7 +228,7 @@ e) Estandaraes de calidad y seguridad	](#_toc394513800)42
 | --- | --- | --- | --- | --- | --- |
 | 1 | Autenticación segura | Los interesados y usuarios necesitan un sistema de autenticación que asegure que solo el personal autorizado pueda acceder a los datos y funciones del sistema. | Alta | Seguridad de los datos | Implementar un sistema de autenticación con contraseñas seguras y, de ser posible, autenticación de dos factores. |
 | 2 | Generación de informes personalizados | Los administradores requieren la capacidad de generar informes detallados sobre el estado del hardware y el uso de la red. | Media | La personalización puede hacer que el sistema sea más complejo de usar | Proveer plantillas de informes que puedan ser personalizadas fácilmente por los usuarios. |
-
+| 3 | Optimización del soporte técnico | Los interesados necesitan una forma de mejorar la eficiencia en el soporte técnico mediante datos precisos sobre el uso de los recursos. | Media | La cantidad de datos podría ser abrumadora | Filtrar y mostrar los datos más relevantes para el soporte técnico. |
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
