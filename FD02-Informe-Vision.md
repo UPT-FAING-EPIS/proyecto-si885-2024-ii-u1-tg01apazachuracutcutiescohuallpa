@@ -224,6 +224,9 @@ e) Estandaraes de calidad y seguridad	](#_toc394513800)42
 
 ### 3.6 Necesidades de los interesados y usuarios
 
+| **Nro.** | **Requerimiento Funcional** | **Descripción** | **Prioridad** | **Inquietudes** | **Solución Propuesta** |
+| --- | --- | --- | --- | --- | --- |
+
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
 ## 4. Vista General del Producto <span id="vista-general-producto" class="anchor"></span>
