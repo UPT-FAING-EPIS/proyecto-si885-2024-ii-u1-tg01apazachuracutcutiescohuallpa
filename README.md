@@ -45,7 +45,7 @@
 | Archivo                      | Descripción                               |
 |------------------------------|-------------------------------------------|
 | `trafico_red_db.sql`          | Base de datos MySQL que contiene las tablas y registros necesarios para el seguimiento del tráfico de red en los laboratorios.|
-| `DesempeñoRed.tbpw`           | Archivo empaquetado de Tableau que contiene los informes y visualizaciones del desempeño de la red. |
+| `DesempeñoRed.twbx`           | Archivo empaquetado de Tableau que contiene los informes y visualizaciones del desempeño de la red. |
 
 ## Enlace a Tableau Public
 
