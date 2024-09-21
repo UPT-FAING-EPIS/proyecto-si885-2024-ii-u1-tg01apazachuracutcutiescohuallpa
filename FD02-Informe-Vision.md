@@ -309,6 +309,8 @@ e) Estandaraes de calidad y seguridad	](#_toc394513800)42
 
 
 8. <span id="_Toc52661353" class="anchor"></span>**Precedencia y Prioridad**
+El desarrollo del sistema de monitoreo y evaluación de red y hardware debe priorizar los componentes más críticos para su correcta implementación y operación. El enfoque principal será asegurar que las funcionalidades esenciales estén disponibles en la primera fase de desarrollo, y posteriormente se añadirán características adicionales.
+
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
