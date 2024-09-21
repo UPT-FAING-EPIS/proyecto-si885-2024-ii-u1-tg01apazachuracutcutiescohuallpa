@@ -17,7 +17,7 @@
 ## Dashboard y Reportes
 
 - **Dashboard**:
-  ![Dashboard](images/dashboard.png)
+  ![Dashboard](images/dashboard1.png)
 
 - **Reporte 1**:
   ![Reporte 1](images/reporte1.png)
