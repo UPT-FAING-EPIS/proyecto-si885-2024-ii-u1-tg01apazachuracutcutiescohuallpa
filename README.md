@@ -38,28 +38,7 @@
 
 | Archivo                      | Descripción                               |
 |------------------------------|-------------------------------------------|
-| `trafico_red_db.sql`          | Base de datos MySQL que contiene las tablas y registros necesarios para el seguimiento del tráfico de red en los laboratorios.DROP TABLE IF EXISTS `trafico_red`;
-CREATE TABLE IF NOT EXISTS `trafico_red` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `fecha` date NOT NULL,
-  `ip` varchar(255) NOT NULL,
-  `clase` varchar(255) NOT NULL,
-  `horario` varchar(255) NOT NULL,
-  `dia` varchar(255) NOT NULL,
-  `turno` varchar(255) NOT NULL,
-  `laboratorio` varchar(255) NOT NULL,
-  `total_enviado_mb` decimal(10,2) NOT NULL,
-  `total_recibido_mb` decimal(10,2) NOT NULL,
-  `tema` varchar(255) NOT NULL,
-  `navegador` varchar(255) NOT NULL,
-  `seccion` varchar(255) NOT NULL,
-  `docente` varchar(255) NOT NULL,
-  `total_mbps` decimal(20,6) DEFAULT NULL,
-  `total_GB` decimal(20,6) DEFAULT NULL,
-  `tiempo_sesion` time DEFAULT NULL,
-  `consumo_energia_kwh` decimal(20,6) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) |
+| `trafico_red_db.sql`          | Base de datos MySQL que contiene las tablas y registros necesarios para el seguimiento del tráfico de red en los laboratorios.|
 | `DesempeñoRed.tbpw`           | Archivo empaquetado de Tableau que contiene los informes y visualizaciones del desempeño de la red. |
 
 ## Enlace a Tableau Public
