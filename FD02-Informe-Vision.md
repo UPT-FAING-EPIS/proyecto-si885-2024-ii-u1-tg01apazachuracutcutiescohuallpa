@@ -231,7 +231,7 @@ e) Estandaraes de calidad y seguridad	](#_toc394513800)42
 | 3 | Optimización del soporte técnico | Los interesados necesitan una forma de mejorar la eficiencia en el soporte técnico mediante datos precisos sobre el uso de los recursos. | Media | La cantidad de datos podría ser abrumadora | Filtrar y mostrar los datos más relevantes para el soporte técnico. |
 | 4 | Interfaz intuitiva | Los usuarios finales prefieren una interfaz sencilla e intuitiva para interactuar con el sistema. | Media | Algunos usuarios podrían necesitar formación adicional | Realizar pruebas de usabilidad y ofrecer una guía de uso dentro del sistema. |
 | 5 | Almacenamiento de datos | Los datos recolectados sobre el uso de hardware y la red deben almacenarse en una base de datos para análisis futuro. | Alta | Seguridad y consistencia de los datos en la base de datos | Implementar una base de datos robusta (ej. MySQL, PostgreSQL) con procedimientos de respaldo y restauración. |
-
+| 6 | Exportación de datos para Tableau | Los administradores deben poder exportar los datos en formatos compatibles con herramientas de análisis como Tableau (ej. CSV, Excel, etc.). | Alta | Formatos incompatibles o pérdida de datos en la exportación | Proporcionar una opción para exportar los datos a formatos estándar como CSV, que puedan ser fácilmente integrados con Tableau. |
 
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
