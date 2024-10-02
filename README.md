@@ -145,6 +145,7 @@ CREATE TABLE IF NOT EXISTS `trafico_red` (
   `consumo_energia_kwh` decimal(20,6) DEFAULT NULL,
   PRIMARY KEY (`id`)
 );
+```
 
 ### Software
 
