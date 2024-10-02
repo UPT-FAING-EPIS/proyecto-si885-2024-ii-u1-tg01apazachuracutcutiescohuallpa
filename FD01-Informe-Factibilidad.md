@@ -95,14 +95,14 @@ Versión *{1.0}*
 
 1.4.1 Objetivo general
    
-    -Desarrollar e implementar un sistema robusto para el monitoreo y evaluación del rendimiento de la red y hardware en las computadoras de la UPT.
+    -Desarrollar e implementar un sistema robusto que permita la recopilación y supervisión del rendimiento de la red y del hardware de las computadoras en los laboratorios de la UPT.
 
 1.4.2 Objetivos Específicos
             
-    -Diseñar una arquitectura de software que permita la recolección de datos en tiempo real sobre el rendimiento de la red y hardware.
-    -Implementar módulos de análisis que generen reportes detallados y permitan la identificación de posibles problemas.
-    -Crear una interfaz de usuario amigable para que los administradores de TI puedan acceder fácilmente a la información.
-    -Evaluar la efectividad del sistema a través de pruebas piloto y ajustar el software según los resultados obtenidos.
+    -Diseñar un script para la recolección de datos que monitorice en tiempo real el rendimiento de la red y del hardware de cada computadora en los laboratorios.
+    -Establecer un mecanismo eficiente para enviar los datos recopilados a una base de datos centralizada, asegurando un almacenamiento adecuado para su análisis posterior.
+    -Facilitar la comprensión de la información recopilada mediante gráficos que permitan visualizar el rendimiento de manera clara.
+    -Evaluar la efectividad del sistema mediante pruebas piloto y ajustar el script según los resultados obtenidos, optimizando su funcionamiento.
 
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
