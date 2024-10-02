@@ -295,7 +295,8 @@ Versión *{1.0}*
 
                 Costo de oportunidad de capital (COK) es la tasa de interés que podría haber obtenido con el dinero invertido en el proyecto
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+
+
 
 6. <span id="_Toc52661357" class="anchor"></span>**Conclusiones**
 
