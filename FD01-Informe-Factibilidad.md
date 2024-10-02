@@ -102,7 +102,7 @@ Versión *{1.0}*
             
     -Diseñar un script para la recolección de datos que monitorice en tiempo real el rendimiento de la red y del hardware de cada computadora en los laboratorios.
     -Establecer un mecanismo eficiente para enviar los datos recopilados a una base de datos centralizada, asegurando un almacenamiento adecuado para su análisis posterior.
-    -Facilitar la comprensión de la información recopilada mediante gráficos que permitan visualizar el rendimiento de manera clara.
+    -Facilitar la comprensión de la información recopilada mediante la organización de datos que permitan su visualización clara y efectiva.
     -Evaluar la efectividad del sistema mediante pruebas piloto y ajustar el script según los resultados obtenidos, optimizando su funcionamiento.
 
 
