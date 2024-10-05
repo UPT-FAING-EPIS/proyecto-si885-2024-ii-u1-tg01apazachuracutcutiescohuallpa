@@ -96,14 +96,20 @@ Versión *{1.0}*
 
 1.4.1 Objetivo general
    
-    -Desarrollar e implementar un sistema robusto que permita la recopilación y supervisión del rendimiento de la red y del hardware de las computadoras en los laboratorios de la UPT.
+    -Desarrollar e implementar un sistema robusto que permita la recopilación y supervisión de la red y del hardware de las computadoras en los laboratorios de la UPT.
 
 1.4.2 Objetivos Específicos
             
-    -Diseñar un script para la recolección de datos que monitorice en tiempo real el rendimiento de la red y del hardware de cada computadora en los laboratorios.
-    -Establecer un mecanismo eficiente para enviar los datos recopilados a una base de datos centralizada, asegurando un almacenamiento adecuado para su análisis posterior.
-    -Facilitar la comprensión de la información recopilada mediante la organización de datos que permitan su visualización clara y efectiva.
-    -Evaluar la efectividad del sistema mediante pruebas piloto y ajustar el script según los resultados obtenidos, optimizando su funcionamiento.
+    -Diseñar un script para la recolección de datos que monitorice el rendimiento de la red y del hardware (GPU y RAM) de cada computadora en los laboratorios. 
+    -Establecer un mecanismo eficiente para enviar los datos recopilados a una base de datos centralizada, asegurando un almacenamiento adecuado para su análisis posterior. 
+    -Facilitar la comprensión de la información recopilada mediante la organización de datos que permitan su visualización clara y efectiva. 
+    -Analizar el tráfico de red para identificar las horas de mayor actividad, facilitando la optimización del uso de recursos en los laboratorios.
+    -Evaluar el consumo de internet diario para establecer patrones de uso y detectar posibles congestiones en la red.
+    -Identificar las direcciones IP con mayor tráfico de red, permitiendo a los administradores detectar equipos o usuarios que puedan estar consumiendo excesivos recursos.
+    -Determinar los docentes que generan mayor tráfico de red, lo cual puede ayudar en la planificación de recursos y en la mejora del servicio durante las clases.
+    -Establecer qué clases presentan mayor tráfico de red, proporcionando información valiosa para la gestión de recursos durante los períodos de mayor demanda.
+    -Apoyar al área de soporte proporcionando información detallada a través de reportes o dashboard, lo que permitirá una gestión más proactiva y eficiente de los recursos tecnológicos, facilitando la identificación y resolución de problemas en el rendimiento de la red y hardware.
+    -Crear un mapa detallado de los laboratorios que muestre la ubicación de cada computadora, sus especificaciones de hardware y su estado actual, incorporando datos en tiempo real del dashboard para facilitar la gestión y monitoreo de los recursos tecnológicos.
 
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
