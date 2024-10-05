@@ -109,8 +109,7 @@ Versión *{1.0}*
     -Determinar los docentes que generan mayor tráfico de red, lo cual puede ayudar en la planificación de recursos y en la mejora del servicio durante las clases.
     -Establecer qué clases presentan mayor tráfico de red, proporcionando información valiosa para la gestión de recursos durante los períodos de mayor demanda.
     -Apoyar al área de soporte proporcionando información detallada a través de reportes o dashboard, lo que permitirá una gestión más proactiva y eficiente de los recursos tecnológicos, facilitando la identificación y resolución de problemas de la red y hardware.
-    -Crear un mapa detallado de los laboratorios que muestre la ubicación de cada computadora, sus especificaciones de hardware y su estado actual, incorporando datos en tiempo real del dashboard para facilitar la gestión y monitoreo de los recursos tecnológicos.
-
+    
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
