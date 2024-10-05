@@ -325,3 +325,19 @@ VAN = 3636.36 + 3305.79 + 3006.77 + 2732.39 - 10,172
 \[
 VAN = 12,681.31 - 10,172 = 2,509.31
 \]
+
+**Interpretación**: El VAN es positivo (S/ 2,509.31), lo que indica que el proyecto generará un valor adicional neto sobre la inversión inicial, por lo que es viable.
+
+### 5.1.2.3. Tasa Interna de Retorno (TIR)
+
+La TIR es la tasa porcentual que indica la rentabilidad promedio anual que genera el capital invertido en el proyecto. Se calcula resolviendo la siguiente ecuación:
+
+\[
+0 = \sum \frac{4000}{(1 + TIR)^t} - 10,172
+\]
+
+Usando una aproximación iterativa, se obtiene que la TIR es aproximadamente del 18%.
+
+**Interpretación**: Dado que la TIR (18%) es mayor que la tasa de descuento asumida (10%), el proyecto es rentable.
+
+---
