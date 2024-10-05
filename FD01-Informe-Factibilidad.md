@@ -259,13 +259,13 @@ Versión *{1.0}*
 El plan financiero se ocupa del análisis de ingresos y gastos asociados a cada proyecto, desde el punto de vista del instante temporal en que se producen. Su misión fundamental es detectar situaciones financieramente inadecuadas. Se tiene que estimar financieramente el resultado del proyecto.
 
 ## 5.1. Justificación de la Inversión
-
-### 5.1.1. Beneficios del Proyecto
-
-El beneficio se calcula como el margen económico menos los costes de oportunidad, que son los márgenes que hubieran podido obtenerse de haber dedicado el capital y el esfuerzo a otras actividades. El beneficio, obtenido lícitamente, no es sólo una recompensa a la inversión, al esfuerzo y al riesgo asumidos por el empresario, sino que también es un factor esencial para que las empresas sigan en el mercado e incorporen nuevas inversiones al tejido industrial y social de las naciones.
-
-- **Beneficios tangibles**: Son de fácil cuantificación, generalmente están relacionados con la reducción de recursos o talento humano.
-- **Beneficios intangibles**: No son fácilmente cuantificables y están relacionados con elementos o mejora en otros procesos de la organización.
+La inversión en este proyecto se justifica con base en los siguientes beneficios:
+**Beneficios tangibles**
+-Reducción de costos operativos
+-Mejora en la eficiencia del área bajo estudio
+-Optimización del uso de recursos
+**Beneficios intangibles**:
+-Toma de decisiones más informada
 
 **Ejemplo de beneficios**:
 
