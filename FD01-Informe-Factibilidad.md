@@ -276,3 +276,40 @@ El beneficio se calcula como el margen económico menos los costes de oportunida
 - Mejor servicio al cliente externo e interno.
 - Logro de ventajas competitivas.
 - Valor agregado a un producto de la compañía.
+
+## 5.1.2. Criterios de Inversión
+
+### 5.1.2.1. Relación Beneficio/Costo (B/C)
+
+En base a los costos y beneficios identificados, se evalúa si es factible el desarrollo del proyecto. Si se presentan varias alternativas de solución, se evaluará cada una de ellas para determinar la mejor solución desde el punto de vista del retorno de la inversión.
+
+La fórmula para calcular el B/C es:
+
+\[
+B/C = \frac{\text{Beneficios totales}}{\text{Costos totales}}
+\]
+
+- **Beneficios Totales**: S/ 12,000
+- **Costos Totales**: S/ 10,172
+
+\[
+B/C = \frac{12,000}{10,172} = 1.18
+\]
+
+**Interpretación**: Dado que el B/C es mayor a 1 (1.18), el proyecto es financieramente viable y debería aceptarse.
+
+### 5.1.2.2. Valor Actual Neto (VAN)
+
+El VAN es el valor presente de los flujos de caja futuros generados por el proyecto, descontados al presente. Se calcula de la siguiente manera:
+
+\[
+VAN = \sum \frac{\text{Flujo de Caja}}{(1 + r)^t} - \text{Inversión Inicial}
+\]
+
+- **Tasa de descuento (r)**: 10%
+- **Inversión inicial**: S/ 10,172
+- **Flujos de caja proyectados**: S/ 4,000 anuales por 4 años.
+
+\[
+VAN = \frac{4000}{(1 + 0.10)^1} + \frac{4000}{(1 + 0.10)^2} + \frac{4000}{(1 + 0.10)^3} + \frac{4000}{(1 + 0.10)^4} - 10,172
+\]
