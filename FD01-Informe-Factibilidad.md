@@ -96,7 +96,7 @@ Versión *{1.0}*
 
 1.4.1 Objetivo general
    
-    -Desarrollar e implementar un sistema robusto que permita la recopilación y supervisión de la red las computadoras en los laboratorios de la UPT.
+    -Desarrollar e implementar un sistema robusto que permita la recopilación y supervisión de la red en las computadoras en los laboratorios de la UPT.
 
 1.4.2 Objetivos Específicos
             
