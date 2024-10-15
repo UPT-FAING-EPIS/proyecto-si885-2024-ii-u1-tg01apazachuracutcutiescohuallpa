@@ -112,6 +112,8 @@ def get_network_traffic():
     bytes_received = net_io.bytes_recv
     return bytes_sent, bytes_received
 
+import os
+
 def get_ip_address():
     """Get the IP address from ip.txt in the same directory as the script."""
     try:
@@ -127,6 +129,23 @@ def get_ip_address():
         ip_address = 'Desconocida'
     
     return ip_address
+
+def get_aula():
+    """Obtiene el nombre del aula desde el archivo aula.txt en el mismo directorio que el script."""
+    try:
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        aula_file_path = os.path.join(script_dir, 'aula.txt')
+        
+        with open(aula_file_path, 'r') as file:
+            aula = file.readline().strip()
+        
+        if not aula:
+            aula = 'Desconocida'
+    except Exception:
+        aula = 'Desconocida'
+    
+    return aula
+
 
 def get_active_window_name():
     """Get the name of the currently active window"""
@@ -146,9 +165,9 @@ def get_active_window_name():
 def create_db_connection():
     """Create a connection to the MySQL database"""
     return mysql.connector.connect(
-        host='161.132.40.164',
+        host='localhost',
         user='root',
-        password='Upt2024',
+        password='',
         database='trafico_red_db'
     ) 
 
@@ -259,7 +278,7 @@ def main():
     last_date = time.strftime('%Y-%m-%d')
     last_class = ""
     ip_address = get_ip_address()
-    lab_info = "LAB-A (P-306)"
+    lab_info = get_aula()
     print(f"IP de la máquina: {ip_address}")
     print("Monitoreando tráfico de red. Presiona Ctrl+C para detener.")
 
