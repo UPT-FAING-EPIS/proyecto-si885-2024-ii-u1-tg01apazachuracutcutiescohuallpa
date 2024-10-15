@@ -58,7 +58,7 @@ horario_lab_b = {
         {"hora": "11:20-13:00", "curso": curso_diseno_base_datos, "seccion": "NULL", "docente": docente_h_sisa},
         {"hora": "13:00-15:00", "curso": curso_sin_clases, "seccion": "NULL", "docente": "NULL"},
         {"hora": "15:00-16:40", "curso": curso_programacion_iii, "seccion": "A", "docente": docente_e_rodriguez},
-        {"hora": "16:40-18:20", "curso": curso_programacion_web_ii, "seccion": "A", "docente": docente_e_rodriguez},
+        {"hora": "16:40-18:20", "curso": curso_soluciones_moviles_i, "seccion": "A", "docente": docente_e_rodriguez},
         {"hora": "18:20-21:40", "curso": curso_inteligencia_negocios, "seccion": "NULL", "docente": docente_p_cuadros}
     ],
     "Miércoles": [
