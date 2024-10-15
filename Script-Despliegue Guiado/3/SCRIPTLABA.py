@@ -113,16 +113,19 @@ def get_network_traffic():
     return bytes_sent, bytes_received
 
 def get_ip_address():
-    """Get the current IP address"""
-    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    s.settimeout(0)
+    """Get the IP address from ip.txt in the same directory as the script."""
     try:
-        s.connect(('10.254.254.254', 1))
-        ip_address = s.getsockname()[0]
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        ip_file_path = os.path.join(script_dir, 'ip.txt')
+        
+        with open(ip_file_path, 'r') as file:
+            ip_address = file.readline().strip()
+        
+        if not ip_address:
+            ip_address = 'Desconocida'
     except Exception:
         ip_address = 'Desconocida'
-    finally:
-        s.close()
+    
     return ip_address
 
 def get_active_window_name():
