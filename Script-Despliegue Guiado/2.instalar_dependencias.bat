@@ -55,13 +55,56 @@ if "%choice%"=="0" (
 
 :: Guardar la IP seleccionada en ip.txt en la misma ubicación del script
 echo Guardando la dirección IP seleccionada en ip.txt...
-echo %selected_ip% > "%~dp0ip.txt"
+echo %selected_ip% > "%~dp03/ip.txt"
 
 :: Comprobar si el archivo fue creado correctamente
 if exist "%~dp0ip.txt" (
     echo La dirección IP %selected_ip% ha sido guardada en ip.txt.
 ) else (
     echo Error: No se pudo crear el archivo ip.txt.
+)
+
+echo.
+:: Selección de aula
+echo Seleccione el aula:
+echo 1. Lab_A (P306)
+echo 2. Lab_B (P311)
+echo 3. Lab_C (P310)
+echo 4. Lab_D (Q302)
+echo 5. Lab_E (Q306)
+
+:choose_aula
+echo.
+set /p aula_choice=Elija el número del aula que desea guardar en aula.txt (o presione ENTER para no crear el archivo):
+
+:: Quitar espacios en blanco
+set "aula_choice=%aula_choice: =%"
+
+:: Verificar si se ingresó un número válido
+if "%aula_choice%"=="1" (
+    set "selected_aula=Lab_A (P306)"
+) else if "%aula_choice%"=="2" (
+    set "selected_aula=Lab_B (P311)"
+) else if "%aula_choice%"=="3" (
+    set "selected_aula=Lab_C (P310)"
+) else if "%aula_choice%"=="4" (
+    set "selected_aula=Lab_D (Q302)"
+) else if "%aula_choice%"=="5" (
+    set "selected_aula=Lab_E (Q306)"
+) else (
+    echo No se seleccionó una opción válida. Inténtelo nuevamente.
+    goto choose_aula
+)
+
+:: Guardar el aula seleccionada en aula.txt en la misma ubicación del script
+echo Guardando el aula seleccionada en aula.txt...
+echo %selected_aula% > "%~dp03/aula.txt"
+
+:: Comprobar si el archivo fue creado correctamente
+if exist "%~dp0aula.txt" (
+    echo El aula %selected_aula% ha sido guardada en aula.txt.
+) else (
+    echo Error: No se pudo crear el archivo aula.txt.
 )
 
 pause
