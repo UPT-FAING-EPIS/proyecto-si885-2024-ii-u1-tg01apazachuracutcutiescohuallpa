@@ -15,6 +15,8 @@ echo Instalando dependencias de Python...
 pip install psutil
 pip install mysql-connector-python
 pip install GPUtil
+python -m ensurepip --upgrade
+python -m pip install setuptools
 echo Instalación completa.
 echo.
 
