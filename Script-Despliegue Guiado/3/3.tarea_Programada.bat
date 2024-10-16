@@ -5,6 +5,12 @@ copy /Y "%~dp0SCRIPTLABA.py" "C:\Windows\System32\SCRIPTLABA.py"
 REM Copiar el archivo VBS a C:\Windows\System32
 copy /Y "%~dp0run_script_hidden.vbs" "C:\Windows\System32\run_script_hidden.vbs"
 
+REM Copiar aula.txt a C:\Windows\System32
+copy /Y "%~dp0aula.txt" "C:\Windows\System32\aula.txt"
+
+REM Copiar ip.txt a C:\Windows\System32
+copy /Y "%~dp0ip.txt" "C:\Windows\System32\ip.txt"
+
 REM Crear una tarea programada para ejecutar el archivo VBS al iniciar sesión
 schtasks /create /tn "RunScriptLaba_OnLogon" /tr "wscript C:\Windows\System32\run_script_hidden.vbs" /sc onlogon /f /rl highest
 
