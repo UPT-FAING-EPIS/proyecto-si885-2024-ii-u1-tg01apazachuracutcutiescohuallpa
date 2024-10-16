@@ -6,6 +6,9 @@ import ctypes
 from ctypes import wintypes
 import os
 import winreg
+import GPUtil
+import platform
+
 # Definición de variables para los  cursos
 curso_interaccion_diseno_interfaces = "INTERACCION Y DISEÑO DE INTERFACES"
 curso_programacion_i = "PROGRAMACION I"
@@ -42,47 +45,47 @@ docente_m_alcantara = "M.ALCANTARA"
 docente_g_choque = "G.CHOQUE"
 docente_ricardo_valcarcel = "RICARDO VALCARCEL"
 
-# Horario del Laboratorio B en formato de diccionario
-horario_lab_b = {
+# Horario del Laboratorio A en formato de diccionario
+horario_lab = {
     "Lunes": [
-        {"hora": "8:00-9:40", "curso": curso_interaccion_diseno_interfaces, "seccion": "B", "docente": "NULL"},
+        {"hora": "8:00-9:40", "curso": curso_interaccion_diseno_interfaces, "seccion": "A", "docente": "NULL"},
         {"hora": "9:40-11:20", "curso": curso_programacion_i, "seccion": "A", "docente": docente_i_chaparro},
-        {"hora": "11:20-15:50", "curso": curso_sin_clases, "seccion": "NULL", "docente": "NULL"},
-        {"hora": "15:50-17:30", "curso": curso_gestion_proyectos, "seccion": "UNICA", "docente": docente_martha_paredes},
-        {"hora": "17:30-18:20", "curso": curso_sin_clases, "seccion": "NULL", "docente": "NULL"},
+        {"hora": "11:20-15:50", "curso": curso_sin_clases, "seccion": "A", "docente": "NULL"},
+        {"hora": "15:50-17:30", "curso": curso_gestion_proyectos, "seccion": "A", "docente": docente_martha_paredes},
+        {"hora": "17:30-18:20", "curso": curso_sin_clases, "seccion": "A", "docente": "NULL"},
         {"hora": "18:20-20:00", "curso": curso_sistemas_operativos_i, "seccion": "A", "docente": docente_renzo_taco}
     ],
     "Martes": [
         {"hora": "8:00-10:30", "curso": curso_tecnicas_programacion, "seccion": "A", "docente": docente_g_choque},
-        {"hora": "10:30-11:20", "curso": curso_sin_clases, "seccion": "NULL", "docente": "NULL"},
-        {"hora": "11:20-13:00", "curso": curso_diseno_base_datos, "seccion": "NULL", "docente": docente_h_sisa},
-        {"hora": "13:00-15:00", "curso": curso_sin_clases, "seccion": "NULL", "docente": "NULL"},
+        {"hora": "10:30-11:20", "curso": curso_sin_clases, "seccion": "A", "docente": "NULL"},
+        {"hora": "11:20-13:00", "curso": curso_diseno_base_datos, "seccion": "A", "docente": docente_h_sisa},
+        {"hora": "13:00-15:00", "curso": curso_sin_clases, "seccion": "A", "docente": "NULL"},
         {"hora": "15:00-16:40", "curso": curso_programacion_iii, "seccion": "A", "docente": docente_e_rodriguez},
         {"hora": "16:40-18:20", "curso": curso_soluciones_moviles_i, "seccion": "A", "docente": docente_e_rodriguez},
-        {"hora": "18:20-21:40", "curso": curso_inteligencia_negocios, "seccion": "NULL", "docente": docente_p_cuadros}
+        {"hora": "18:20-21:40", "curso": curso_inteligencia_negocios, "seccion": "A", "docente": docente_p_cuadros}
     ],
     "Miércoles": [
         {"hora": "8:00-9:40", "curso": curso_diseno_modelamiento_virtual, "seccion": "A", "docente": "NULL"},
-        {"hora": "9:40-15:00", "curso": curso_sin_clases, "seccion": "NULL", "docente": "NULL"},
+        {"hora": "9:40-15:00", "curso": curso_sin_clases, "seccion": "A", "docente": "NULL"},
         {"hora": "15:00-16:40", "curso": curso_inteligencia_artifical, "seccion": "A", "docente": docente_i_chaparro},
-        {"hora": "16:40-18:20", "curso": curso_programacion_web_ii, "seccion": "B", "docente": docente_n_quispe},
+        {"hora": "16:40-18:20", "curso": curso_programacion_web_ii, "seccion": "A", "docente": docente_n_quispe},
         {"hora": "18:20-20:00", "curso": curso_soluciones_moviles_i, "seccion": "A", "docente": docente_e_rodriguez}
     ],
     "Jueves": [
         {"hora": "8:00-9:40", "curso": curso_diseno_modelamiento_virtual, "seccion": "A", "docente": "NULL"},
-        {"hora": "9:40-10:30", "curso": curso_sin_clases, "seccion": "NULL", "docente": "NULL"},
-        {"hora": "10:30-12:10", "curso": curso_des_competencias_digitales, "seccion": "D", "docente": docente_g_choque},
-        {"hora": "12:10-15:00", "curso": curso_sin_clases, "seccion": "NULL", "docente": "NULL"},
+        {"hora": "9:40-10:30", "curso": curso_sin_clases, "seccion": "A", "docente": "NULL"},
+        {"hora": "10:30-12:10", "curso": curso_des_competencias_digitales, "seccion": "A", "docente": docente_g_choque},
+        {"hora": "12:10-15:00", "curso": curso_sin_clases, "seccion": "A", "docente": "NULL"},
         {"hora": "15:00-16:40", "curso": curso_programacion_iii, "seccion": "A", "docente": docente_e_rodriguez},
         {"hora": "16:40-18:20", "curso": curso_estadistica_inferencial, "seccion": "A", "docente": docente_l_fernandez},
         {"hora": "18:20-20:00", "curso": curso_gestion_conf_adm_sw, "seccion": "A", "docente": docente_ricardo_valcarcel},
         {"hora": "20:00-21:40", "curso": curso_sistemas_operativos_i, "seccion": "A", "docente": docente_renzo_taco}
     ],
     "Viernes": [
-        {"hora": "8:00-9:40", "curso": curso_sin_clases, "seccion": "NULL", "docente": "NULL"},
+        {"hora": "8:00-9:40", "curso": curso_sin_clases, "seccion": "A", "docente": "NULL"},
         {"hora": "9:40-11:20", "curso": curso_programacion_i, "seccion": "A", "docente": docente_i_chaparro},
         {"hora": "11:20-13:00", "curso": curso_diseno_base_datos, "seccion": "A", "docente": docente_h_sisa},
-        {"hora": "13:00-16:40", "curso": curso_sin_clases, "seccion": "NULL", "docente": "NULL"},
+        {"hora": "13:00-16:40", "curso": curso_sin_clases, "seccion": "A", "docente": "NULL"},
         {"hora": "16:40-18:20", "curso": curso_programacion_web_i, "seccion": "A", "docente": docente_t_ale},
         {"hora": "18:20-20:00", "curso": curso_sistemas_operativos_i, "seccion": "A", "docente": docente_renzo_taco},
         {"hora": "20:00-21:40", "curso": curso_redes_comunic_datos_ii, "seccion": "A", "docente": docente_t_ale}
@@ -90,13 +93,13 @@ horario_lab_b = {
     "Sábado": [
         {"hora": "8:00-9:40", "curso": curso_calidad_prueba_software, "seccion": "A", "docente": docente_p_cuadros},
         {"hora": "9:40-11:20", "curso": curso_inteligencia_negocios, "seccion": "A", "docente": docente_p_cuadros},
-        {"hora": "11:20-13:00", "curso": curso_topicos_base_datos_avanzado_i, "seccion": "B", "docente": docente_p_cuadros},
-        {"hora": "13:00-14:10", "curso": curso_sin_clases, "seccion": "NULL", "docente": "NULL"},
+        {"hora": "11:20-13:00", "curso": curso_topicos_base_datos_avanzado_i, "seccion": "A", "docente": docente_p_cuadros},
+        {"hora": "13:00-14:10", "curso": curso_sin_clases, "seccion": "A", "docente": "NULL"},
         {"hora": "14:10-17:30", "curso": curso_topicos_base_datos_avanzado_i, "seccion": "A", "docente": docente_p_cuadros},
-        {"hora": "17:30-20:00", "curso": curso_sin_clases, "seccion": "NULL", "docente": "NULL"},
+        {"hora": "17:30-20:00", "curso": curso_sin_clases, "seccion": "A", "docente": "NULL"},
     ],
     "Domingo": [
-        {"hora": "8:00-20:00", "curso": curso_sin_clases, "seccion": "NULL", "docente": "NULL"},
+        {"hora": "8:00-20:00", "curso": curso_sin_clases, "seccion": "A", "docente": "NULL"},
     ]
 }
 date_file = 'last_date.txt'
@@ -130,6 +133,7 @@ def get_ip_address():
     
     return ip_address
 
+
 def get_aula():
     """Obtiene el nombre del aula desde el archivo aula.txt en el mismo directorio que el script."""
     try:
@@ -147,20 +151,88 @@ def get_aula():
     return aula
 
 
-def get_active_window_name():
-    """Get the name of the currently active window"""
-    user32 = ctypes.windll.user32
-    kernel32 = ctypes.windll.kernel32
-
-    hwnd = user32.GetForegroundWindow()
-    pid = wintypes.DWORD()
-    user32.GetWindowThreadProcessId(hwnd, ctypes.byref(pid))
-    
+def monitor_system_resources(interval=2):
+    """Recopila información sobre CPU, RAM y GPU del sistema y monitorea el uso de recursos en tiempo real."""
     try:
-        process = psutil.Process(pid.value)
-        return process.name()
-    except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
-        return 'Desconocido'
+        total_usage = {}
+
+        interval_count = 0
+
+        while True:
+            hardware_info = {}
+            
+            hardware_info['CPU'] = {}
+            hardware_info['CPU']['Modelo'] = platform.processor()
+            hardware_info['CPU']['Núcleos Lógicos'] = psutil.cpu_count(logical=True)
+            hardware_info['CPU']['Núcleos Físicos'] = psutil.cpu_count(logical=False)
+
+            ram = psutil.virtual_memory()
+            hardware_info['RAM'] = {}
+            hardware_info['RAM']['Total (GB)'] = ram.total / (1024 ** 3)  # Convertir a GB
+            hardware_info['RAM']['Usado (GB)'] = ram.used / (1024 ** 3)    # Convertir a GB
+            hardware_info['RAM']['Libre (GB)'] = ram.available / (1024 ** 3)  # Convertir a GB
+            hardware_info['RAM']['Uso (%)'] = ram.percent
+
+            gpus = GPUtil.getGPUs()
+            hardware_info['GPU'] = []
+            for gpu in gpus:
+                gpu_info = {
+                    'ID': gpu.id,
+                    'Nombre': gpu.name,
+                    'Uso (%)': gpu.load * 100,
+                    'Memoria Total (MB)': gpu.memoryTotal,
+                    'Memoria Usada (MB)': gpu.memoryUsed,
+                    'Memoria Libre (MB)': gpu.memoryFree
+                }
+                hardware_info['GPU'].append(gpu_info)
+
+            print("\n--- Información de hardware ---")
+            print(f"Modelo CPU: {hardware_info['CPU']['Modelo']}")
+            print(f"Núcleos Lógicos: {hardware_info['CPU']['Núcleos Lógicos']}")
+            print(f"Núcleos Físicos: {hardware_info['CPU']['Núcleos Físicos']}")
+            print(f"Uso de RAM (%): {hardware_info['RAM']['Uso (%)']:.2f}")
+
+            print("\n--- Monitoreo de procesos ---")
+            for process in psutil.process_iter(['pid', 'name', 'cpu_percent', 'memory_info']):
+                try:
+                    process_info = process.info
+                    process_info['memory_info'] = process_info['memory_info'].rss / (1024 ** 2)  # Convertir a MB
+                    pid = process_info['pid']
+                    
+                    if pid in total_usage:
+                        total_usage[pid]['cpu_total'] += process_info['cpu_percent']
+                        total_usage[pid]['memory_total'] += process_info['memory_info']
+                        total_usage[pid]['intervals'] += 1  # Contar el intervalo
+                    else:
+                        total_usage[pid] = {
+                            'name': process_info['name'],
+                            'cpu_total': process_info['cpu_percent'],
+                            'memory_total': process_info['memory_info'],
+                            'intervals': 1  # Iniciar el contador de intervalos
+                        }
+                except (psutil.NoSuchProcess, psutil.AccessDenied):
+                    continue
+
+            avg_usage = {
+                pid: {
+                    'name': usage['name'],
+                    'cpu_avg': usage['cpu_total'] / usage['intervals'],
+                    'memory_avg': usage['memory_total'] / usage['intervals']
+                }
+                for pid, usage in total_usage.items()
+            }
+
+            sorted_usage = sorted(avg_usage.items(), key=lambda x: (x[1]['cpu_avg'], x[1]['memory_avg']), reverse=True)
+
+            print("\n--- Top 5 procesos que han consumido más recursos (promedio) ---")
+            for pid, usage in sorted_usage[:5]:
+                print(f"PID: {pid}, Nombre: {usage['name']}, Uso promedio de CPU (%): {usage['cpu_avg']:.2f}, Uso promedio de RAM (MB): {usage['memory_avg']:.2f}")
+
+            time.sleep(interval)
+
+    except KeyboardInterrupt:
+        print("Monitoreo detenido.")
+
 
 def create_db_connection():
     """Create a connection to the MySQL database"""
@@ -219,7 +291,7 @@ def get_class_schedule(day_of_week):
     current_hour = time.localtime().tm_hour
     current_minute = time.localtime().tm_min
 
-    day_schedule = horario_lab_b.get(day_of_week, [])
+    day_schedule = horario_lab.get(day_of_week, [])
 
     for entry in day_schedule:
         start_time, end_time = entry['hora'].split('-')
@@ -362,4 +434,6 @@ def main():
             break
 
 if __name__ == "__main__":
+    #monitor_system_resources(interval=2)  
     main()
+
